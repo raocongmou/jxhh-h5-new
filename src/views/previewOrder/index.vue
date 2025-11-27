@@ -1,0 +1,10 @@
+<template>
+  <div>
+    <iframe
+      src="http://123.60.15.228:8523/pbReport/reportJsp/showReport.jsp?rpx=d_pm03_jxhh.rpx&docEntry=770"
+      ref="iframe"
+      width="100%"
+      height="750px"
+    ></iframe>
+  </div>
+</template>

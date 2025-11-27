@@ -1,0 +1,54 @@
+.van-grid {
+  margin-top: 60px;
+}
+
+[class*=van-hairline] {
+  &::after {
+    border: none;
+  }
+}
+
+// van-row文本居中
+// .van-cell__value--alone {
+//   text-align: center;
+// }
+.van-col {
+  text-align: center;
+  font-size: 18px;
+}
+
+// 分页组件
+.van-pagination {
+  position: fixed;
+  bottom: 25px;
+  width: 100%;
+  left: 0;
+}
+
+.van-nav-bar__content {
+  background-color: #10a0ff !important;
+}
+
+.van-nav-bar__title {
+  color: #fff;
+  font-size: 20px;
+}
+
+.van-icon-arrow-left::before {
+  content: '\F008';
+  color: #EEE;
+}
+
+.van-collapse-item__content {
+  padding: 0;
+}
+
+textarea.van-field__control {
+  border: 1px solid @van-textarea-field-border-color !important;
+}
+
+.van-field__body {
+  input.van-field__control {
+    text-indent: 0.7em;
+  }
+}

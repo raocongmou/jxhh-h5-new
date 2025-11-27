@@ -1,0 +1,91 @@
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.custArea"
+  label="客户国家地区"
+  placeholder="请输入客户国家地区"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.zcZb"
+  label="注册资本(元)"
+  placeholder="请输入注册资本(元)"
+  type="number"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.lastZb"
+  label="上年总资产(元)"
+  placeholder="请输入上年总资产(元)"
+  type="number"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.zbFzRate"
+  label="资产负债率(%)"
+  placeholder="请输入资产负债率(%)"
+  type="number"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.lastProfit"
+  label="上年净利润(元)"
+  placeholder="请输入上年净利润(元)"
+  type="number"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.ifYyq"
+  label="是否有逾期"
+  placeholder="请输入是否有逾期"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.xyPeriod"
+  label="信用期限"
+  placeholder="请输入信用期限"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.applyQuota"
+  label="申请金额(元)"
+  placeholder="请输入申请金额(元)"
+  type="number"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.payType"
+  label="合同支付方式"
+  placeholder="请输入合同支付方式"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.currentAmount"
+  label="当前在手订单金额(元)"
+  placeholder="请输入当前在手订单金额(元)"
+  type="number"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.currentYsYe"
+  label="当前应收款余额(元)"
+  placeholder="请输入当前应收款余额(元)"
+  type="number"
+/>
+<van-field
+  :readonly="orderReadOnly"
+  input-align="left"
+  v-model="formData.productName"
+  label="出口商品名称"
+  placeholder="请输入出口商品名称"
+/>
